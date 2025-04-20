@@ -1,0 +1,19 @@
+name: music
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.30
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/
+    - assets/images/  # This will include all images in the assets/images/ directory
